@@ -201,7 +201,7 @@ background-size: cover
 
 * We maintain more modules than the company Puppet
 * This leads to some challenges, which I want to discuss today
-* 88 modules during puppetconf2017, 92 in January 2018
+* 88 modules during puppetconf2017, 105 in September 2018
 
 ---
 
@@ -354,168 +354,6 @@ background-size: cover
 ## Vox Pupuli
 
 .left-column[
-### What?
-### Who?
-]
-
-.right-column[
-
-* Currently 122 people with merge permissions
-
-  * We were 113 in February 2018
-
-  * We were 107 in October 2017
-
-  * We were 80 in November 2016
-
-* Just a few people work for Puppet Inc.
-
-* Most of the contributors participate in their free time
-
-* Normal administrators that have to deal with puppet at work
-
-]
-
-.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
-
-???
-
-* only 5 regular contributors work at Puppet Inc, we're independent from the company
-
----
-
-background-image: url(blue-skies.jpg)
-background-size: cover
-
-## Vox Pupuli
-
-.left-column[
-### What?
-### Who?
-]
-
-.right-column[
-
-## Science!
-
-![image](contributors.svg)
-
-]
-
-.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
----
-
-background-image: url(blue-skies.jpg)
-background-size: cover
-
-## Vox Pupuli
-
-.left-column[
-### What?
-### Who?
-]
-
-.right-column[
-
-
-* Many git newbies
-
-  * Rebasing a feature branch against upstream master is hard
-
-* Many newcomers to test frameworks
-
-  * Dealing with rspec/rubocop/beaker is hard as well
-
-]
-
-.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
-
-???
-
-* Many contributors are new to git and github
-* Many never wrote tests
-* we don't have to teach them writing good puppet code, but all the related tooling
-
----
-
-background-image: url(blue-skies.jpg)
-background-size: cover
-
-## Vox Pupuli
-
-.left-column[
-### What?
-### Who?
-]
-
-.right-column[
-
-
-* Many administrators of legacy infrastructures
-
-  * Puppet3, Ruby191, Ruby2.0
-
-  * November 2016: Puppet2.7, Ruby187
-
-  * Do we already call Puppet4 legacy? (yes pls)
-
-]
-
-.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
-
-???
-
-Was: Ruby hashrocket notation doesnt work on ruby187
-Now: There is a strange datatype in my code (puppet4/5 code executed with puppet3)
-Now: Data-in-modules doesn't work
-
----
-background-image: url(blue-skies.jpg)
-background-size: cover
-
-## Vox Pupuli
-
-.left-column[
-### What?
-### Who?
-### Why?
-
-]
-
-.right-column[
-
-* Maintaining a module on your own is hard
-
-  * Changing best practices, vacations, losing interest
-
-* Proper testing of a module requires a lot of stuff from the ruby ecosystem
-
-  * Ruby ecosystem and related tools are changing too fast for a single person
-
-  * Everything has to work on multiple Ruby/Puppet versions
-
-  * Rubocop
-
-  * Rubocop
-
-]
-
-.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
-
-
-???
-
-* Who tried to fix rubocop warnings in a module and couldn't fix all?
-* Shout out to hailee/HAIL9000 who fixed maaaaaaaany rubocop errors in the mongodb module for many days
-
----
-
-background-image: url(blue-skies.jpg)
-background-size: cover
-
-## Vox Pupuli
-
-.left-column[
 
 ## How?
 ### modulesync
@@ -524,7 +362,7 @@ background-size: cover
 
 .right-column[
 
-* We are managing 105 puppet modules and (155 git repos)
+* We are managing 105 puppet modules and (160 git repos)
 
   * We had 92 modules in February 2018
 
@@ -571,7 +409,7 @@ background-size: cover
 
 * Free CI platform
 
-* Puppet Inc. sponsors us unlimited? concurrent travis slots
+* Puppet Inc. sponsors us ~20 concurrent travis slots
 
 * rpsec-puppet on common Puppet*Ruby versions
 
@@ -704,72 +542,6 @@ background-size: cover
 
 * We got a few modules with puppet-strings docs!
 * They are automagically published under our domain
-
----
-
-background-image: url(blue-skies.jpg)
-background-size: cover
-
-## Vox Pupuli
-
-.left-column[
-
-### Governance?
-###PMC
-
-]
-
-.right-column[
-
-* We elected a second Project Management Committee in 2018!
-
-* PMC enforces CoC
-
-* Brings Vox Pupuli into the Software Freedom Conservancy
-
-* PMC guidelines are created by the community https://tinyurl.com/voxpupuli-governance-md
-
-* Current members:
-
-  * Tim ‘bastelfreak’ Meusel (reelected)
-  * David ‘dhollinger’ Hollinger
-  * Hunter ‘Hunner’ Haugen (works for Puppet Inc., reelected)
-  * Alex ‘afisher’ Fisher
-  * Eric ‘eputnam’ Putnam (works for Puppet Inc.)
-]
-
-.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
-
----
-
-background-image: url(blue-skies.jpg)
-background-size: cover
-
-## Vox Pupuli
-
-.left-column[
-
-### Governance?
-### PMC
-### Collaborators
-
-]
-
-.right-column[
-
-* Review pull requests
-
-* Explain why we don't support ruby187 anymore
-
-* New: Explain why we don't support Puppet3 anymore
-
-* Help with git
-
-* Trigger the automated release process
-
-]
-
-.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
 
 ---
 
